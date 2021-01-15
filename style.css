@@ -27,3 +27,7 @@ nav{
 .movie_text span{
     color: aquamarine;
 }
+#footer{
+    height: 20px;
+    background-color: white
+}
