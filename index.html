@@ -9,18 +9,22 @@
     <link rel="stylesheet" href="style.css">
  </head>
  <body>
- <div class="responsive">     
-   <nav>
-    <ul>   
+ <nav class="navbar-inverse" style="position: sticky; top: 0; z-index: 10;">
+ <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"></button>
+ </div>
+       <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">   
      <li id="link"><a href="reqelordinternationalschool.com">Reqelford International School</a></li>
      <li id="link"><a href="#announcements">ANNOUNCEMENTS</a></li>
      <li id="link"><a href="#achivements">ACHIVEMENTS</a></li>
      <li id="link"><a href="#whats new">WHATS NEW</a></li>
      <li id="link"><a href="#alumni">ALUMNI</a></li>
      <li id="link"><a href="#contact us">CONTACT US</a></li>    
-    </ul>    
+    </ul>
+    </div>    
    </nav>
-  <div class="announcements">
+  <div id="announcements">
      <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
         *** FEEL FREE TO ASK QUERIES AT reconnect@gmail.com ***
      </marquee>
